@@ -35,7 +35,7 @@ The datasets are designed using the principles of fact and dim data modeling con
 ![Modeling](https://github.com/srushtii-m/ETL-Analytics/blob/main/images/sc_datamodel.png)
 
 ### Step 1: Cleaning and Transformation
-In this step, I loaded the CSV file into VSCode and carried out data cleaning and transformation activities prior to organizing them into fact and dim tables.[script](data_cleaning.ipynb)
+In this step, I loaded the CSV file into VSCode and carried out data cleaning and transformation activities prior to organizing them into fact and dim tables.[script](https://github.com/srushtii-m/ETL-Analytics/blob/main/data_cleaning.ipynb)
 
 ### Step 2: Stored the data on Google Cloud Storage
 
@@ -43,12 +43,12 @@ In this step, I loaded the CSV file into VSCode and carried out data cleaning an
 1. Launched the SSH instance and installed required libraries and Mage AI library.
 2. ETL is carried out by accessing the external IP address and mage-ai port number.
 3. Created a new pipeline with the following stages:
-    * [Extract](Mage\scm_dataloader.py)
-    * [Transform](Mage\scm_transformation.py)
-    * [Load](Mage\scm_bigquery.py)
+    * [Extract](https://github.com/srushtii-m/ETL-Analytics/blob/main/Mage/scm_dataloader.py)
+    * [Transform](https://github.com/srushtii-m/ETL-Analytics/blob/main/Mage/scm_transformation.py)
+    * [Load](https://github.com/srushtii-m/ETL-Analytics/blob/main/Mage/scm_bigquery.py)
 
 ### Step 4: Analytics
-After running the pipeline in Mage, the fact and dimensional tables were generated in Google Big Query. Performed few queries and crearted sales analytics table. [SQL queries here.](queries.sql)
+After running the pipeline in Mage, the fact and dimensional tables were generated in Google Big Query. Performed few queries and crearted sales analytics table. [SQL queries here.](https://github.com/srushtii-m/ETL-Analytics/blob/main/queries.sql)
 
 ### Step 5: Dashboard
 After completing the analysis, I loaded the relevant tables into Looker Studio and created a dashboard. [Dashboard here.](https://lookerstudio.google.com/s/qMZDCm_iIgA)
