@@ -10,7 +10,7 @@ In this project, I developed a complete data pipeline, guiding data from collect
 
 ## Dataset Used
 
-I'm using the dataset from [DataCo Global](https://data.mendeley.com/datasets/8gx2fvg2k6/5). The data description is [here](data\Data Dictionary.pdf). It consists of 52 features in areas of provisioning, production, sales and commercial distribution.
+I'm using the dataset from [DataCo Global](https://data.mendeley.com/datasets/8gx2fvg2k6/5). The data description is [here](data\Data Dictionary.pdf). It consists of 52 features in areas of provisioning, production, sales, and commercial distribution.
 
 ## Technologies:
 
@@ -22,7 +22,7 @@ I'm using the dataset from [DataCo Global](https://data.mendeley.com/datasets/8g
 
 ## Data Pipeline Architecture
 
-![Architecture](images\etl pipeline.png)
+![Architecture](https://github.com/srushtii-m/ETL-Analytics/blob/main/images/etl%20pipeline.png)
 
 Step 1: Cleaning and transformation - sc_data.ipynb
 Step 2: Storage
@@ -32,7 +32,7 @@ Step 5: Dashboard
 
 ## Data Modeling
 The datasets are designed using the principles of fact and dim data modeling concepts.         
-![Modeling](images\sc_datamodel.png)
+![Modeling](https://github.com/srushtii-m/ETL-Analytics/blob/main/images/sc_datamodel.png)
 
 ### Step 1: Cleaning and Transformation
 In this step, I loaded the CSV file into VSCode and carried out data cleaning and transformation activities prior to organizing them into fact and dim tables.[script](data_cleaning.ipynb)
@@ -52,4 +52,4 @@ After running the pipeline in Mage, the fact and dimensional tables were generat
 
 ### Step 5: Dashboard
 After completing the analysis, I loaded the relevant tables into Looker Studio and created a dashboard. [Dashboard here.](https://lookerstudio.google.com/s/qMZDCm_iIgA)
-![dashboard](images\sales_dashboard.png)
+![dashboard](https://github.com/srushtii-m/ETL-Analytics/blob/main/images/sales_dashboard.png)
